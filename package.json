@@ -22,5 +22,9 @@
     "typed.js": "^2.0.12",
     "velocity-animate": "^1.5.2",
     "velocityjs": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19"
   }
 }
