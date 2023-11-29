@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Image } from "next/image";
 import { sliderProps } from "../sliderProps";
 const Clients = () => {
   return (

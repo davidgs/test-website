@@ -148,19 +148,29 @@ const MobileHeader = () => {
   return (
     <header className={`header mobileHeader ${toggle ? "active" : ""}`}>
       {/* logo */}
-      <div className="logo">
+      <div className="logo" style={{ display: 'flex', flexDirection: 'row', width: '100vw' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', width: "15%" }}>
         <a href="/">
-          <img className="logo-img" src="images/logo.png" alt="" />
+            <img className="logo-img" src="images/logo.png" alt="" />
+          </a>
+        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', width: "3px" }}></div>
+        <div style={{ display: 'flex', flexDirection: 'column', width: '40%' }}>
+          <a href="/">
           <span className="logo-lnk">
             David G. <br />
             Simmons
           </span>
-        </a>
-      </div>
-      {/* menu button */}
-      <a href="#" className="menu-btn" onClick={() => setToggle(!toggle)}>
+          </a>
+          </div>
+        {/* <div style={{ display: 'flex', flexDirection: 'column', width: '20%' }}></div> */}
+        {/* menu button */}
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'right', marginLeft: '10px', width: '45%'}} >
+          <a href="#" className="menu-btn" onClick={() => setToggle(!toggle)}>
         <span />
-      </a>
+        </a>
+        </div>
+      </div>
       {/* download cv button */}
       <a href="#" className="btn download-cv-btn">
         <span className="animated-button">

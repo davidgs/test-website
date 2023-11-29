@@ -1,5 +1,6 @@
 import Layout from "@/src/layouts/Layout";
 import Link from "next/link";
+import { Image } from "next/image";
 import { useEffect } from "react";
 const SinglePost = () => {
   useEffect(() => {
@@ -31,7 +32,7 @@ const SinglePost = () => {
             <div className="content-box">
               <div className="single-post-text">
                 <p>
-                  <img src="images/blog/blog_1.jpg" alt="Welcome to Jekyll!" />
+                  <Image src="images/blog/blog_1.jpg" alt="Welcome to Jekyll!" width={100} height={100} />
                 </p>
                 <p>
                   So striking at of to welcomed resolved. Northward by described
@@ -153,12 +154,9 @@ const SinglePost = () => {
                   <li className="comment post-comment">
                     <div className="comment">
                       <div className="comment-image image">
-                        <img
-                          alt=""
-                          height={80}
+                        <Image src="images/rev1.png" alt="Welcome to Jekyll!" height={80}
                           width={80}
                           className="avatar avatar-80 photo"
-                          src="images/rev1.png"
                         />
                       </div>
                       <div className="comment-desc desc">
@@ -190,7 +188,7 @@ const SinglePost = () => {
                   <li className="comment post-comment">
                     <div className="comment">
                       <div className="comment-image image">
-                        <img
+                        <Image
                           alt=""
                           height={80}
                           width={80}
@@ -227,7 +225,7 @@ const SinglePost = () => {
                   <li className="comment post-comment">
                     <div className="comment">
                       <div className="comment-image image">
-                        <img
+                        <Image
                           alt=""
                           height={80}
                           width={80}

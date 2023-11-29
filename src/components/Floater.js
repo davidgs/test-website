@@ -9,10 +9,10 @@ const Floater = () => {
         <div className="vertical-center">
           <div className="floater__title" style={{ display: "flex", justifyContent: "center", flexDirection: "row" }}>
             {/* title */}
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div style={{ display: "flex", flexDirection: "column", marginTop: "3%" }}>
               <RotatingHead />
             </div>
-            <div style={{ display: "flex", flexDirection: "column" }}>
+            <div className="wrap">
               <h1>David G.<br /> Simmons</h1>
             </div>
 

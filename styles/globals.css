@@ -17,6 +17,23 @@ html {
   display: block;
 }
 
+/* rotating head */
+.head-rotator {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+  margin: 25px;
+}
+.head-rotator-key {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: white;
+}
+
 @media (max-width: 1199px) {
   .header.active {
     padding-top: 4vw;
@@ -30,6 +47,22 @@ html {
   }
   .desktopHeader {
     display: none;
+  }
+  /* rotating head */
+  .head-rotator {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    margin: 25px;
+  }
+  .head-rotator-key {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
   }
 }
 
@@ -75,12 +108,4 @@ img.mfp-img {
   transform: translate(-50%, -50%);
 }
 
-/* rotating head */
-.head-rotator {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: white;
-  margin: 25px;
-}
+

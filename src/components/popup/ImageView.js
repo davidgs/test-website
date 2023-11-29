@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState } from "react";
+import { Image } from "next/image";
 import useClickOutside from "../../useClickOutside";
 
 const ImgViews = ({ close, src }) => {

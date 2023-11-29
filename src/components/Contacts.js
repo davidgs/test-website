@@ -5,7 +5,7 @@ const Contacts = () => {
         {/* title */}
         <div className="titles">
           <div className="title">Contact</div>
-          <div className="subtitle">Let's talk</div>
+          <div className="subtitle">Let&apos;s talk</div>
         </div>
         {/* contact form */}
         <div className="contact-form">

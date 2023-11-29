@@ -1,4 +1,5 @@
 import Layout from "@/src/layouts/Layout";
+import { Image } from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
 const Blog = () => {
@@ -37,10 +38,7 @@ const Blog = () => {
                   <div className="image">
                     <Link href="single-post" legacyBehavior>
                       <a className="post-thumbnail">
-                        <img
-                          src="images/blog/blog_1.jpg"
-                          alt="Welcome to Jekyll!"
-                        />
+                        <Image src="images/blog/blog_1.jpg" alt="Welcome to Jekyll!" width={100} height={100} />
                       </a>
                     </Link>
                   </div>
@@ -77,10 +75,7 @@ const Blog = () => {
                   <div className="image">
                     <Link href="single-post" legacyBehavior>
                       <a className="post-thumbnail">
-                        <img
-                          src="images/blog/blog_5.jpg"
-                          alt="By spite about do of do allow blush"
-                        />
+                        <Image src="images/blog/blog_5.jpg" alt="By spite about do of do allow blush" width={100} height={100} />
                       </a>
                     </Link>
                   </div>
@@ -118,10 +113,7 @@ const Blog = () => {
                   <div className="image">
                     <Link href="single-post" legacyBehavior>
                       <a className="post-thumbnail">
-                        <img
-                          src="images/blog/blog_4.jpg"
-                          alt="Two Before Arrow Not Relied"
-                        />
+                        <Image src="images/blog/blog_4.jpg" alt="Two Before Arrow Not Relied" width={100} height={100} />
                       </a>
                     </Link>
                   </div>
@@ -157,10 +149,7 @@ const Blog = () => {
                   <div className="image">
                     <Link href="single-post" legacyBehavior>
                       <a className="post-thumbnail">
-                        <img
-                          src="images/blog/blog_3.jpg"
-                          alt="Design in Mobile Application"
-                        />
+                        <Image src="images/blog/blog_3.jpg" alt="Design in Mobile Application" width={100} height={100} />
                       </a>
                     </Link>
                   </div>
@@ -196,10 +185,7 @@ const Blog = () => {
                   <div className="image">
                     <Link href="single-post" legacyBehavior>
                       <a className="post-thumbnail">
-                        <img
-                          src="images/blog/blog_2.jpg"
-                          alt="By spite about what to do"
-                        />
+                        <Image src="images/blog/blog_2.jpg" alt="By spite about what to do" width={100} height={100} />
                       </a>
                     </Link>
                   </div>
