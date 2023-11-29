@@ -29,45 +29,45 @@ const ImageRotator: React.FC = () => {
   }, [imageList.length]);
 
   return (
-    <motion.div
+    <motion.div className='head-rotator'
       animate={{
         scale: [1, 1.25, 1.25, 1, 1],
         rotate: [0, 0, 180, 180, 0],
         borderRadius: ["50%", "30%", "50%", "30%", "50%"]
       }}
-      transition={{
-        duration: 2,
-        ease: "easeInOut",
-        times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: Infinity,
-        repeatDelay: 1.25
-      }}
-      style={{
-        width: "150px",
-        height: "150px",
-        borderRadius: "50%",
-        overflow: "hidden",
-        backgroundColor: "white",
-        margin: "25px",
-      }}
+      // transition={{
+      //   duration: 2,
+      //   ease: "easeInOut",
+      //   times: [0, 0.2, 0.5, 0.8, 1],
+      //   repeat: Infinity,
+      //   repeatDelay: 1.25
+      // }}
+      // style={{
+      //   width: "150px",
+      //   height: "150px",
+      //   borderRadius: "50%",
+      //   overflow: "hidden",
+      //   backgroundColor: "white",
+      //   margin: "25px",
+      // }}
     >
       <AnimatePresence>
-        <motion.img
-          style={{
-            width: "150px",
-            height: "150px",
-            borderRadius: "50%",
-            overflow: "hidden",
-            backgroundColor: "white",
-          }}
-          animate={{ scale: [1.25, 1, 1, 1.25] }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.8, 1],
-            repeat: Infinity,
-            repeatDelay: 1.25
-          }}
+        <motion.img className='head-rotator'
+          // style={{
+          //   width: "150px",
+          //   height: "150px",
+          //   borderRadius: "50%",
+          //   overflow: "hidden",
+          //   backgroundColor: "white",
+          // }}
+          // animate={{ scale: [1.25, 1, 1, 1.25] }}
+          // transition={{
+          //   duration: 2,
+          //   ease: "easeInOut",
+          //   times: [0, 0.2, 0.5, 0.8, 1],
+          //   repeat: Infinity,
+          //   repeatDelay: 1.25
+          // }}
           key={currentImageIndex}
           src={imageList[currentImageIndex]}
           alt=""

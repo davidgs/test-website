@@ -62,21 +62,22 @@ const Contacts = () => {
               <li>
                 <strong>Residence:</strong> USA
               </li>
-              <li>
+              {/* <li>
                 <strong>Freelance:</strong> Available
+              </li> */}
+              <li>
+                <strong>Location:</strong> Apex, NC
               </li>
               <li>
-                <strong>Address:</strong> Apex, NC
+                <strong>Phone:</strong> <a href="tel:9195345099" style={{ textDecoration: 'none'}}>+1 (919) 534-5099</a>
               </li>
               <li>
-                <strong>Phone:</strong> +1 (919) 534-5099
-              </li>
-              <li>
-                <strong>E-mail:</strong> davidgs@davidgs.com
+                <strong>E-mail:</strong> <a href="mailto:davidgs@davidgs.com" style={{ textDecoration: 'none'}}>davidgs@davidgs.com</a>
               </li>
             </ul>
           </div>
-          <div className="author">David G. Simmons</div>
+          {/* <div className="author">David G. Simmons</div> */}
+          <img src="images/dgs-sig.svg" alt="signature" />
         </div>
         <div className="clear" />
       </div>
